@@ -1,0 +1,116 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6216705660,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login.setup()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Login into account with valid crednetials",
+        "description": "   Existing stckoverflow user should be able to login successfully",
+        "id": "login-into-account;login-into-account-with-valid-crednetials",
+        "after": [
+          {
+            "result": {
+              "duration": 6677199473,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4769658389,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to stackoverflow login page",
+            "match": {
+              "location": "Login.user_navigates_to_stackoverflow_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1460770927,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on login option",
+            "match": {
+              "location": "Login.user_clicks_on_login_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 347984745,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters username",
+            "match": {
+              "location": "Login.user_enters_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 209874856,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters password",
+            "match": {
+              "location": "Login.user_enters_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3107902170,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on login button",
+            "match": {
+              "location": "Login.user_clicks_on_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5140482150,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should be navbigated to successful login page",
+            "match": {
+              "location": "Login.user_should_be_navbigated_to_successful_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login into account",
+    "description": "",
+    "id": "login-into-account",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
